@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDN Audio Test</title>
+</head>
+<body>
+
+    <h1>GitHub + jsDelivr Audio Test</h1>
+    <p>Click the button below to test streaming your audio file from your public repo.</p>
+    
+    <button id="testButton">Play "You Win" Sound</button>
+    <div id="status">Status: Waiting for click...</div>
+
+    <script>
+        // 👉 Replace 'YourUsername' and 'YourRepoName' with your actual GitHub info
+        const cdnUrl = 'https://cdn.jsdelivr.net/gh/benwaar/music@main/sfx/you-win.mp3';
+        
+        const winSound = new Audio(cdnUrl);
+        const testButton = document.getElementById('testButton');
+        const statusDiv = document.getElementById('status');
+
+        testButton.addEventListener('click', () => {
+            statusDiv.textContent = "Status: Loading from CDN...";
+            
+            winSound.play().then(() => {
+                statusDiv.textContent = "Status: Success! Audio streamed from jsDelivr.";
+                console.log("Success! Audio streamed from jsDelivr.");
+            }).catch(error => {
+                statusDiv.textContent = "Status: Playback failed. Check console for details.";
+                console.error("Playback failed:", error);
+            });
+        });
+    </script>
+
+</body>
+</html>
