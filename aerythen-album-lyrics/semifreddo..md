@@ -1,3 +1,4 @@
+## Semifreddo
 
 I left the window open
 Just in case you changed your mind
@@ -38,7 +39,7 @@ At a quarter after two
 But what would I say?
 Would you want me to?
 
-semifreddo in the sunset
+Semifreddo in the sunset
 Half a memory, half regret
 Not cold enough to leave it
 Not warm enough to forget
