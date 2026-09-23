@@ -1,4 +1,4 @@
-# WARRIORS WALK
+# Warrior Walk
 
 The sirens in the distance
 slowly faded away
