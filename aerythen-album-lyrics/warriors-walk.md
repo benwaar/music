@@ -1,24 +1,85 @@
-scratchpad of ideas for song 8, from hastings walk from the castle to warriors square 
+# WARRIORS WALK
 
-# warriors walk
-
-the cirens in the distance
+The sirens in the distance
 slowly faded away
-i was left with sounds of gentle oceans
-only i remained
+I was left with sounds
+of gentle oceans
+only I remained
 
-6000 years have passed 
-people stay the same
+Six thousand years have passed
+the rockets still burn red
+men have formed their little clans
+and argue over who is dead
 
-talking about catching a murderer
+They're talking about a murderer
 talking about their children
-and their little friendly dogs
+talking about their little dogs
+running through the street
 
-acid jazz
-starsky and hatch
-someone took a shot at a queen
-a million works of art to enjoy
+Someone took a shot at a queen
+someone called it revolution
+a million works of art remain
+waiting for someone to see them
 
-warriors walking the same path through the ages
+Warriors walk
+warriors walk
+the same path through the ages
+Warriors walk
+warriors walk
+through the ruins and the stations
 
+LOVE
+ATTACK
+CREATE
+DESTROY
+REPEAT
 
+LOVE
+ATTACK
+CREATE
+DESTROY
+REPEAT
+
+Acid jazz from a broken speaker
+Starsky and Hutch on the wall
+rocket men are forming clans
+while the ocean doesn't care at all
+
+The children are still sleeping
+while the engines start to roar
+someone is still making breakfast
+someone is keeping score?
+
+Warriors walk
+warriors walk
+the same path through the ages
+
+LOVE
+ATTACK
+CREATE
+DESTROY
+REPEAT
+
+LOVE
+ATTACK
+CREATE
+DESTROY
+REPEAT
+
+LOVE
+ATTACK
+CREATE
+DESTROY
+REPEAT
+
+LOVE
+ATTACK
+CREATE
+DESTROY
+REPEAT
+
+Six thousand years and counting
+yet still we remain
+The sirens fade
+the ocean stays
+The warriors walk again
