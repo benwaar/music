@@ -23,7 +23,8 @@ something simple, something young
 And I don't need to know
 where the afternoon will go
 if you're sitting here beside me
-I already know it's good
+I already know 
+it's good
 
 You stole a piece of orange
 from the edge of my plate
@@ -48,7 +49,8 @@ looked different next to you
 And I don't need a telephone
 I don't need a sign to know
 if you're sitting here beside me
-I already know I'm home
+I already know 
+I'm home
 
 I used to watch the wires
 trying to follow where they went
