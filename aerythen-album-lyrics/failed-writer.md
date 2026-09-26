@@ -1,35 +1,78 @@
-Failed Writer
+# Failed Writer
 
-Slow jazz ballad — piano & voice
+Failed writer on my tombstone.
+I'm still happy with that.
 
-Verse 1
+My novella didn't change the world,
+but it helped me fit inside it.
 
-Failed writer on my tombstone. I'm still happy with that.
+At least I tried.
+I lived the dream.
 
-My novella didn't change the world, but it helped me fit inside it.
+It may not have worked out,
+but I'm grateful for the journey—
+the peace, the calm,
+the camp bed and the cloak.
 
-At least I tried. I lived the dream.
+On the slow train home,
+finally a quiet carriage.
 
-It may not have worked out, but I'm grateful for the journey—
+Just my thoughts
+and England's fields.
 
-the peace, the calm, the camp bed and the cloak.
-
-Verse 2
-
-On the slow train home, finally a quiet carriage.
-
-Just my thoughts, and England's fields.
-
-Peaceful rivers, horses in the distance,
-
+Peaceful rivers,
+horses in the distance,
 all facing forward.
 
-Outro
+And maybe that's enough—
+not knowing where they're going,
+just knowing they are going.
 
-Coffee warming my hands. A melody finding me.
+No one is coming to save me.
 
-The tracks keep singing. I don't need more than this.
+Funny thing is,
+I don't think I need them to.
+
+There's a life in front of me
+and no one else can choose it.
+
+So I'll choose it.
+
+A little today.
+A little more tomorrow.
+
+No grand beginning,
+no promise I'll get it right.
+
+Just one more page.
+One more line.
+One more step.
+
+Coffee warming my hands.
+A melody finding me.
+
+The tracks keep singing
+underneath the morning.
+
+I used to think
+I needed somewhere to arrive.
+
+Now I'm learning
+I can make a life
+out of where I am.
+
 
 Failed writer on my tombstone.
 
-I'm still happy with that.
+Maybe.
+
+But not finished.
+
+There's still a song in me,
+still a road beneath me,
+still another morning
+waiting to begin.
+
+And tomorrow—
+
+I'll write one more line.
