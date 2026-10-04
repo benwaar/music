@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerythen Ringtones</title>
+</head>
+<body>
+
+    <h1>Aerythen Ringtones</h1>
+    <p>Choose a ringtone or play all three in sequence.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+        <button data-ringtone="retro">Play Retro</button>
+        <button data-ringtone="classical">Play Classical</button>
+        <button data-ringtone="default">Play Default</button>
+        <button id="playAllButton">Play All 3</button>
+    </div>
+    <div id="status">Status: Waiting for click...</div>
+
+    <script>
+        const ringtones = {
+            retro: 'https://cdn.jsdelivr.net/gh/benwaar/music@main/rintones/aerythen-ringtone-retro.mp3',
+            classical: 'https://cdn.jsdelivr.net/gh/benwaar/music@main/rintones/aerythen-ringtone-classical.mp3',
+            default: 'https://cdn.jsdelivr.net/gh/benwaar/music@main/rintones/aerythen-ringtone.mp3'
+        };
+
+        const statusDiv = document.getElementById('status');
+        let currentAudio = null;
+
+        function stopCurrentAudio() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                currentAudio = null;
+            }
+        }
+
+        function updateStatus(message) {
+            statusDiv.textContent = `Status: ${message}`;
+        }
+
+        function playTone(key) {
+            stopCurrentAudio();
+
+            const url = ringtones[key];
+            if (!url) {
+                updateStatus(`Unknown ringtone: ${key}`);
+                return;
+            }
+
+            const audio = new Audio(url);
+            currentAudio = audio;
+            updateStatus(`Loading ${key} ringtone from CDN...`);
+
+            audio.play().then(() => {
+                updateStatus(`${key.charAt(0).toUpperCase() + key.slice(1)} ringtone playing.`);
+            }).catch(error => {
+                if (currentAudio === audio) {
+                    currentAudio = null;
+                }
+                updateStatus(`Playback failed for ${key}. Check console for details.`);
+                console.error(`Playback failed for ${key}:`, error);
+            });
+
+            audio.onended = () => {
+                if (currentAudio === audio) {
+                    currentAudio = null;
+                }
+            };
+        }
+
+        function playAllThree() {
+            stopCurrentAudio();
+
+            const order = ['retro', 'classical', 'default'];
+            let index = 0;
+
+            function playNext() {
+                if (index >= order.length) {
+                    currentAudio = null;
+                    updateStatus('All 3 ringtones finished playing.');
+                    return;
+                }
+
+                const key = order[index];
+                const audio = new Audio(ringtones[key]);
+                currentAudio = audio;
+                updateStatus(`Playing ${key} ringtone...`);
+
+                audio.onended = () => {
+                    if (currentAudio === audio) {
+                        currentAudio = null;
+                    }
+                    index += 1;
+                    playNext();
+                };
+
+                audio.play().catch(error => {
+                    if (currentAudio === audio) {
+                        currentAudio = null;
+                    }
+                    updateStatus(`Playback failed for ${key}. Check console for details.`);
+                    console.error(`Playback failed for ${key}:`, error);
+                });
+            }
+
+            playNext();
+        }
+
+        document.querySelectorAll('[data-ringtone]').forEach(button => {
+            button.addEventListener('click', () => {
+                playTone(button.dataset.ringtone);
+            });
+        });
+
+        document.getElementById('playAllButton').addEventListener('click', playAllThree);
+    </script>
+
+</body>
+</html>
