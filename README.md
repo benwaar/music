@@ -1,7 +1,10 @@
-# Eno State — Lyrics for Games & Films
+# Eno State 
+
+Songs for games and films, the odd punk song and an occasional ballard.
+
 **Lyrics by David Benoy**
 
-Featured in the [Aerythen Command Line Punk Universe and Card Game](https://aerythen.com/).
+Featured in the [Aerythen Command Line Punk Universe](https://aerythen.com/).
 
 ---
 
