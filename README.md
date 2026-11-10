@@ -24,6 +24,8 @@ Everything is inspectable and hackable.
 
 ## Signal Hunt
 
+Deep Learning: CNNs and transfer learning for predictive modeling.
+
 `audio classification` · `CNN` · `transfer learning` · `Mel spectrograms` · `CNN-RNN` · `ONNX` · `WASM inference`
 
 Turn raw audio into Mel spectrograms, then build up from sound classification through piano note detection, chord recognition, and chord progressions. The trained model also runs in a live browser demo, with real-time inference and no server required.

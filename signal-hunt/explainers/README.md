@@ -1,24 +1,27 @@
 # Signal Hunt — Explainers
 
-Project-specific explainers for Signal Hunt. Shared concepts (CNNs, training loops, Mel-spectrograms, transfer learning, etc.) are in the Games AI Lab Learning Hub:
+Signal Hunt's audio-domain explainers live here. Cross-project ML concepts remain in the
+[Games AI Lab Learning Hub](https://github.com/benwaar/games/tree/main/explainers) so future
+Games AI Lab projects can reuse them.
 
-→ **[Games AI Lab Learning Hub](https://github.com/benwaar/games/tree/main/explainers)** — all shared explainers
+## Audio Processing & Data
 
-The most relevant shared explainers for this project:
+→ [Reading Waveforms & Spectrograms](reading-plots.md) — annotated audio examples and pipeline debugging
+→ [Mel-Spectrograms](mel-spectrograms.md) — STFT, Mel scale, log-dB, and tensor conversion
+→ [Signal-to-Noise Ratio](snr.md) — measuring noise and applying robust audio augmentation
+→ [Data Collection](data-collection.md) — recording and extending the Signal Hunt dataset
+→ [Batch Processing](batch-processing.md) — audio augmentation, manifest, and reproducible tensor generation
 
-→ [Mel-spectrograms](https://github.com/benwaar/games/blob/main/explainers/mel-spectrograms.md) — STFT, Mel scale, log-dB, with C/JS/TS parallels
-→ [CNN Architecture](https://github.com/benwaar/games/blob/main/explainers/cnn-architecture.md) — Conv2d, BatchNorm, GAP, Dropout, parameter count
-→ [Training Loop](https://github.com/benwaar/games/blob/main/explainers/training-loop.md) — loss, backprop, Adam, scheduling, early stopping
-→ [Transfer Learning](https://github.com/benwaar/games/blob/main/explainers/transfer-learning.md) — what we froze and why, frozen vs fine-tune
-→ [Evaluation](https://github.com/benwaar/games/blob/main/explainers/evaluation.md) — precision, recall, F1, confusion matrix, loss curves
-→ [Train / Val / Test Split](https://github.com/benwaar/games/blob/main/explainers/train-val-test-split.md) — why three sets, stratified splits
-→ [Dataset & DataLoader](https://github.com/benwaar/games/blob/main/explainers/dataset-dataloader.md) — the protocol, label encoding
-→ [Batch Processing](https://github.com/benwaar/games/blob/main/explainers/batch-processing.md) — augmentation strategy, manifest schema
-→ [Libraries](https://github.com/benwaar/games/blob/main/explainers/libraries.md) — PyTorch, librosa, soundfile, what each dependency does
-→ [Python Concepts](https://github.com/benwaar/games/blob/main/explainers/python-concepts.md) — patterns used throughout this codebase
-→ [Data Collection](https://github.com/benwaar/games/blob/main/explainers/data-collection.md) — why real recordings, how to add more
-→ [Reading Waveforms & Spectrograms](https://github.com/benwaar/games/blob/main/explainers/reading-plots.md) — annotated examples
-→ [SNR](https://github.com/benwaar/games/blob/main/explainers/snr.md) — signal-to-noise ratio and why it matters for augmentation
+## Shared ML Concepts
+
+→ [CNN Architecture](https://github.com/benwaar/games/blob/main/explainers/cnn-architecture.md) — CNN building blocks, illustrated with Signal Hunt
+→ [Transfer Learning](https://github.com/benwaar/games/blob/main/explainers/transfer-learning.md) — frozen features and fine-tuning, with Signal Hunt results
+→ [Training Loop](https://github.com/benwaar/games/blob/main/explainers/training-loop.md) — loss, backpropagation, Adam, scheduling, and early stopping
+→ [Evaluation](https://github.com/benwaar/games/blob/main/explainers/evaluation.md) — precision, recall, F1, confusion matrices, and loss curves
+→ [Train / Val / Test Split](https://github.com/benwaar/games/blob/main/explainers/train-val-test-split.md) — held-out evaluation and stratified splits
+→ [Dataset & DataLoader](https://github.com/benwaar/games/blob/main/explainers/dataset-dataloader.md) — PyTorch dataset and batching concepts
+→ [Libraries](https://github.com/benwaar/games/blob/main/explainers/libraries.md) — NumPy, PyTorch, and the project's dependencies
+→ [Python Concepts](https://github.com/benwaar/games/blob/main/explainers/python-concepts.md) — Python patterns used in ML projects
 
 ---
 
