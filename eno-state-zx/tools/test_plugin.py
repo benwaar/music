@@ -28,7 +28,7 @@ NOTE_DURATION = 0.4
 GAP_DURATION = 0.05
 D_MAJOR = [62, 64, 66, 67, 69, 71, 73, 74]
 
-DEFAULT_VST3 = Path(__file__).resolve().parent.parent / "vsti" / "target" / "bundled" / "eno-state-zx.vst3"
+DEFAULT_VST3 = Path(__file__).resolve().parent.parent / "vsti" / "target" / "bundled" / "eno-state-zx-plugin.vst3"
 
 
 def main():

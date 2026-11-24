@@ -593,6 +593,13 @@ name = "eno-state-zx"
 version = "0.1.0"
 dependencies = [
  "hound",
+]
+
+[[package]]
+name = "eno-state-zx-plugin"
+version = "0.1.0"
+dependencies = [
+ "eno-state-zx",
  "nih_plug",
 ]
 

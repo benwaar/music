@@ -1,7 +1,7 @@
 use nih_plug::prelude::*;
 use std::sync::Arc;
 
-use crate::tone_2ch::Tone2chEngine;
+use eno_state_zx::tone_2ch::Tone2chEngine;
 
 fn midi_note_to_period(note: u8) -> u8 {
     let freq = 440.0_f64 * 2.0_f64.powf((note as f64 - 69.0) / 12.0);

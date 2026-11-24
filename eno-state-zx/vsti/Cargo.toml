@@ -1,15 +1,21 @@
 [workspace]
-members = [".", "xtask"]
+members = [".", "plugin", "xtask"]
 resolver = "2"
 
 [package]
 name = "eno-state-zx"
 version = "0.1.0"
 edition = "2021"
-description = "Eno State ZX — 1-bit ZX Spectrum beeper synth (VST3/CLAP)"
+description = "Eno State ZX — 1-bit ZX Spectrum beeper synth engines"
+license = "MIT"
+repository = "https://github.com/benwaar/music"
+homepage = "https://github.com/benwaar/music/tree/main/eno-state-zx"
+keywords = ["audio", "synth", "beeper", "zx-spectrum", "chiptune"]
+categories = ["multimedia::audio"]
+exclude = ["plugin/", "xtask/"]
 
 [lib]
-crate-type = ["cdylib", "lib"]
+name = "eno_state_zx"
 
 [[bin]]
 name = "eno-state-zx"
@@ -17,15 +23,6 @@ path = "src/main.rs"
 
 [dependencies]
 hound = "3"
-
-[dependencies.nih_plug]
-git = "https://github.com/robbert-vdh/nih-plug.git"
-features = ["standalone"]
-optional = true
-
-[features]
-default = []
-plugin = ["dep:nih_plug"]
 
 [profile.release]
 opt-level = 2

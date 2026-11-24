@@ -1,0 +1,16 @@
+[package]
+name = "eno-state-zx-plugin"
+version = "0.1.0"
+edition = "2021"
+description = "Eno State ZX — VST3/CLAP plugin wrapper (not published)"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+eno-state-zx = { path = ".." }
+
+[dependencies.nih_plug]
+git = "https://github.com/robbert-vdh/nih-plug.git"
+features = ["standalone"]
