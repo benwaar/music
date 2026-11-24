@@ -39,6 +39,9 @@ Turn raw audio into Mel spectrograms, then build up from sound classification th
 
 ## Eno State ZX
 
+[![crates.io](https://img.shields.io/crates/v/eno-state-zx.svg)](https://crates.io/crates/eno-state-zx)
+[![docs.rs](https://docs.rs/eno-state-zx/badge.svg)](https://docs.rs/eno-state-zx)
+
 1-bit beeper synth: faithful Z80 Spectrum sound in a modern plugin.
 
 `Z80 assembly` · `Rust` · `VST3/CLAP` · `1-bit audio` · `beeper engines` · `integer T-state simulation`
