@@ -18,7 +18,7 @@ Everything is inspectable and hackable.
 | # | Project | What it builds | Depends on | Status |
 |---|---------|---------------|------------|--------|
 | 1 | [Signal Hunt](signal-hunt/) | Audio AI: sound classification → piano notes → chords and progressions | — | done |
-| 2 | [Eno State ZX](eno-state-zx/) | 1-bit beeper synth: Z80 ASM → Rust → VST3/CLAP plugin | — | v0.1 |
+| 2 | [Eno State ZX](eno-state-zx/) | 1-bit beeper synth: Z80 ASM → Rust → VST3/CLAP plugin | — | in development |
 
 
 ---
