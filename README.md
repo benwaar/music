@@ -1,5 +1,7 @@
 # Music & Sound AI Lab
 
+**[View the site](https://benwaar.github.io/music/)**
+
 Hands-on machine learning music and sound AI projects.
 
 ## Development Ethos

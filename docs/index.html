@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music & Sound AI Lab | David Benoy</title>
+    <meta
+      name="description"
+      content="Music, synths, and AI — hands-on machine learning projects for audio, games, and finance."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container site-header">
+      <h1>Music & Games AI Labs</h1>
+      <p>
+        I asked myself in March 2024 if I can learn AI, make something useful
+        and have some fun along the way ... and I'm still going.
+      </p>
+    </header>
+
+    <main> ============================================================
+         FUN — Music & Games
+         ============================================================ -->
+    <section class="container">
+      <h2 class="section-title">Fun</h2>
+
+      <div class="link-row">
+        <a
+          href="https://linktr.ee/enostate"
+          class="link-secondary"
+          target="_blank"
+          rel="noopener"
+          >Eno State</a
+        >
+        <a
+          href="https://aerythen.com"
+          class="link-secondary"
+          target="_blank"
+          rel="noopener"
+          >Aerythen</a
+        >
+      </div>
+
+      <p class="section-text section-text--spaced">
+        <strong>Eno State</strong> — songs, sounds and synths, the odd punk song
+        and an occasional ballad.
+      </p>
+      <p class="section-text">
+        <strong>Aerythen</strong> — a Command Line Punk universe. A novel, a few
+        games and a soundtrack.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         USEFUL — Synths & Tools
+         ============================================================ -->
+    <section class="container">
+      <h2 class="section-title">Useful</h2>
+
+      <div class="card-group">
+        <div class="card">
+          <h3>Eno State ZX</h3>
+          <div class="tags">
+            Z80 assembly &middot; Rust &middot; VST3/CLAP &middot; 1-bit audio
+            &middot; beeper engines
+          </div>
+          <a
+            href="https://crates.io/crates/eno-state-zx"
+            class="badge"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="https://img.shields.io/crates/v/eno-state-zx.svg"
+              alt="crates.io version"
+            />
+          </a>
+          <p>
+            1-bit ZX Spectrum beeper synth. Four engines built from Z80 assembly
+            first principles, then ported to Rust as a VST3/CLAP plugin. Same
+            algorithms, same tone tables, same sound.
+          </p>
+          <div class="stat">
+            4 engines &middot; 14 Rust tests &middot; MCP knowledge server
+          </div>
+          <div class="link-row">
+            <a
+              href="https://github.com/benwaar/music/tree/main/eno-state-zx"
+              class="link-secondary"
+              target="_blank"
+              rel="noopener"
+              >Source</a
+            >
+            <a
+              href="https://docs.rs/eno-state-zx"
+              class="link-secondary"
+              target="_blank"
+              rel="noopener"
+              >docs.rs</a
+            >
+            <a
+              href="https://github.com/benwaar/music/tree/main/eno-state-zx/explainers"
+              class="link-secondary"
+              target="_blank"
+              rel="noopener"
+              >Explainers</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STUDY — AI/ML for Finance
+         ============================================================ -->
+    <section class="container">
+      <h2 class="section-title">Study</h2>
+
+      <p class="section-text">
+        Every project maps to a class of real problem. Pattern recognition in
+        audio, documents, images, and transaction data. On-device inference via
+        ONNX and Rust for zero-latency, zero-cloud-cost deployment. Sequence
+        detection for fraud and journey analysis. Synthetic data generation for
+        privacy-safe training. LLM tooling with quality gates and multi-agent
+        orchestration.
+      </p>
+
+      <div class="tree">
+        <h3 class="tree-root">AI</h3>
+        <ul>
+          <li>
+            <span class="tree-label">Machine Learning</span>
+            <ul>
+              <li>
+                <span class="tree-label">Classic ML</span>
+                <a href="https://github.com/benwaar/games" class="tree-status akesi" target="_blank" rel="noopener">akesi</a>
+                <span class="tree-detail">regression, trees, boosting, SVM, k-means, PCA</span>
+              </li>
+              <li>
+                <span class="tree-label">Deep Learning</span>
+                <ul>
+                  <li>
+                    <span class="tree-label">Foundations</span>
+                    <a href="https://github.com/benwaar/music/tree/main/signal-hunt" class="tree-status signal-hunt" target="_blank" rel="noopener">signal-hunt</a>
+                    <span class="tree-detail">tensors, backprop, optimisers, regularisation</span>
+                  </li>
+                  <li>
+                    <span class="tree-label">Architectures</span>
+                    <ul>
+                      <li><span class="tree-label">CNN</span> <a href="https://github.com/benwaar/music/tree/main/signal-hunt" class="tree-status signal-hunt" target="_blank" rel="noopener">signal-hunt</a></li>
+                      <li><span class="tree-label">RNN / GRU / LSTM</span> <a href="https://github.com/benwaar/music/tree/main/signal-hunt" class="tree-status signal-hunt" target="_blank" rel="noopener">signal-hunt</a></li>
+                      <li><span class="tree-label">Transformer</span> <a href="https://github.com/benwaar/tpp" class="tree-status tpp" target="_blank" rel="noopener">TPP</a></li>
+                      <li><span class="tree-label">Diffusion</span> <a href="https://github.com/benwaar/music" class="tree-status drift" target="_blank" rel="noopener">drift</a></li>
+                      <li><span class="tree-label">U-Net</span> <a href="https://github.com/benwaar/music" class="tree-status drift" target="_blank" rel="noopener">drift</a></li>
+                      <li><span class="tree-label">Autoencoder</span> <a href="https://github.com/benwaar/music" class="tree-status drift" target="_blank" rel="noopener">drift</a></li>
+                      <li><span class="tree-label">GAN</span> <span class="tree-status gap"></span></li>
+                      <li><span class="tree-label">GNN</span> <span class="tree-status gap"></span></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="tree-label">Training</span>
+                    <a href="https://github.com/benwaar/music/tree/main/signal-hunt" class="tree-status signal-hunt" target="_blank" rel="noopener">signal-hunt</a>
+                    <a href="https://github.com/benwaar/games" class="tree-status kaos9" target="_blank" rel="noopener">KAOS 9</a>
+                    <span class="tree-detail">augmentation, transfer learning, curriculum, distillation</span>
+                  </li>
+                  <li>
+                    <span class="tree-label">Fine-tuning / LoRA</span>
+                    <a href="https://github.com/benwaar/music" class="tree-status chant" target="_blank" rel="noopener">chant</a>
+                    <span class="tree-detail">LoRA, text conditioning, RLHF, dataset curation</span>
+                  </li>
+                  <li>
+                    <span class="tree-label">Generation</span>
+                    <a href="https://github.com/benwaar/music" class="tree-status drift" target="_blank" rel="noopener">drift</a>
+                    <span class="tree-detail">noise schedules, classifier-free guidance, DDIM</span>
+                  </li>
+                  <li>
+                    <span class="tree-label">Evaluation</span>
+                    <a href="https://github.com/benwaar/music/tree/main/signal-hunt" class="tree-status signal-hunt" target="_blank" rel="noopener">signal-hunt</a>
+                    <span class="tree-detail">metrics, loss curves, ROC/AUC, perceptual loss</span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span class="tree-label">Reinforcement Learning</span>
+                <ul>
+                  <li><span class="tree-label">TD learning + deep RL</span> <a href="https://github.com/benwaar/games" class="tree-status kaos9" target="_blank" rel="noopener">KAOS 9</a></li>
+                  <li><span class="tree-label">Multi-agent RL</span> <a href="https://github.com/benwaar/games" class="tree-status akesi" target="_blank" rel="noopener">akesi</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="tree-label">AI Agents</span>
+            <ul>
+              <li>
+                <span class="tree-label">LLM Engineering</span>
+                <a href="https://github.com/benwaar/tpp" class="tree-status tpp" target="_blank" rel="noopener">TPP</a>
+                <a href="https://github.com/benwaar/music/tree/main/eno-state-zx" class="tree-status eno-state-zx" target="_blank" rel="noopener">eno-state-zx</a>
+                <span class="tree-detail">embeddings, FAISS, RAG, MCP server (Rust), evals</span>
+              </li>
+              <li>
+                <span class="tree-label">Conversational AI</span>
+                <a href="https://github.com/benwaar/games" class="tree-status akesi" target="_blank" rel="noopener">akesi</a>
+                <span class="tree-detail">LLM chatbot, grounded generation, prompt engineering</span>
+              </li>
+              <li>
+                <span class="tree-label">Agent Memory</span>
+                <span class="tree-status gap"></span>
+                <span class="tree-detail">graph memory, entity resolution, temporal decay</span>
+              </li>
+              <li>
+                <span class="tree-label">LLM-as-Debugger</span>
+                <span class="tree-status gap"></span>
+                <span class="tree-detail">structured diagnosis, retry loops, debug context</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="tree-label">Domains</span>
+            <ul>
+              <li><span class="tree-label">Audio / signal processing</span> <a href="https://github.com/benwaar/music/tree/main/signal-hunt" class="tree-status signal-hunt" target="_blank" rel="noopener">signal-hunt</a></li>
+              <li><span class="tree-label">Computer vision</span> <span class="tree-status gap"></span></li>
+              <li><span class="tree-label">Generative audio</span> <a href="https://github.com/benwaar/music" class="tree-status drift" target="_blank" rel="noopener">drift</a></li>
+              <li><span class="tree-label">Multimodal (text to audio)</span> <a href="https://github.com/benwaar/music" class="tree-status chant" target="_blank" rel="noopener">chant</a></li>
+              <li><span class="tree-label">NLP / LLM</span> <a href="https://github.com/benwaar/tpp" class="tree-status tpp" target="_blank" rel="noopener">TPP</a></li>
+              <li><span class="tree-label">Synthetic data</span> <a href="https://github.com/benwaar/music" class="tree-status drift" target="_blank" rel="noopener">drift</a></li>
+              <li><span class="tree-label">ASR / speech</span> <span class="tree-status gap"></span></li>
+            </ul>
+          </li>
+          <li>
+            <span class="tree-label">Production / MLOps</span>
+            <ul>
+              <li><span class="tree-label">Inference pipeline</span> <a href="https://github.com/benwaar/music/tree/main/signal-hunt" class="tree-status signal-hunt" target="_blank" rel="noopener">signal-hunt</a></li>
+              <li><span class="tree-label">Edge deployment</span> <span class="tree-status gap"></span></li>
+              <li><span class="tree-label">Model serving</span> <span class="tree-status gap"></span></li>
+              <li><span class="tree-label">Monitoring / A/B testing</span> <span class="tree-status gap"></span></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="link-row link-row--spaced">
+        <a
+          href="https://github.com/benwaar/music"
+          class="link-secondary"
+          target="_blank"
+          rel="noopener"
+          >music</a
+        >
+        <a
+          href="https://github.com/benwaar/games"
+          class="link-secondary"
+          target="_blank"
+          rel="noopener"
+          >games</a
+        >
+        <a
+          href="https://github.com/benwaar/tpp"
+          class="link-secondary"
+          target="_blank"
+          rel="noopener"
+          >tpp</a
+        >
+        <a
+          href="https://github.com/benwaar/ui-for-ai"
+          class="link-secondary"
+          target="_blank"
+          rel="noopener"
+          >ui-for-ai</a
+        >
+        <a
+          href="https://github.com/benwaar/shaders"
+          class="link-secondary"
+          target="_blank"
+          rel="noopener"
+          >shaders</a
+        >
+      </div>
+    </section>
+
+    </main>
+
+    <footer class="site-footer">
+      Source code is MIT licensed. Aerythen, Eno State, lyrics, artwork and
+      branding &copy; 2026 David Benoy.
+      <br />
+      <a href="https://aerythen.com" target="_blank" rel="noopener"
+        >aerythen.com</a
+      >
+    </footer>
+  </body>
+</html>
