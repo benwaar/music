@@ -1,0 +1,33 @@
+[workspace]
+members = [".", "xtask"]
+resolver = "2"
+
+[package]
+name = "eno-state-zx"
+version = "0.1.0"
+edition = "2021"
+description = "Eno State ZX — 1-bit ZX Spectrum beeper synth (VST3/CLAP)"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[[bin]]
+name = "eno-state-zx"
+path = "src/main.rs"
+
+[dependencies]
+hound = "3"
+
+[dependencies.nih_plug]
+git = "https://github.com/robbert-vdh/nih-plug.git"
+features = ["standalone"]
+optional = true
+
+[features]
+default = []
+plugin = ["dep:nih_plug"]
+
+[profile.release]
+opt-level = 2
+lto = true
+strip = true
