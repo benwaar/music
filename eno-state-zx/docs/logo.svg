@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 80" width="140" height="80">
+  <!-- Beepers logo — 1-bit square wave with a speaker toggle dot -->
+
+  <!-- Square wave — the beeper output -->
+  <polyline
+    points="10,55 10,25 25,25 25,55 40,55 40,25 55,25 55,55 70,55 70,25 85,25 85,55 100,55 100,25 115,25 115,55 130,55"
+    fill="none" stroke="#f97316" stroke-width="3.5"
+    stroke-linecap="square" stroke-linejoin="miter"
+    opacity="0.9"/>
+
+  <!-- Fading trailing edge — the sound dying away -->
+  <polyline
+    points="100,55 100,25 115,25 115,55 130,55"
+    fill="none" stroke="#f97316" stroke-width="3.5"
+    stroke-linecap="square" stroke-linejoin="miter"
+    opacity="0.45"/>
+
+  <!-- Toggle dot — the speaker flip moment -->
+  <circle cx="70" cy="25" r="4" fill="#f97316" opacity="1"/>
+
+  <!-- Baseline -->
+  <line x1="8" y1="68" x2="132" y2="68" stroke="#f97316" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+</svg>

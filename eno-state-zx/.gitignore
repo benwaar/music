@@ -1,0 +1,18 @@
+# Build artifacts
+target/
+*.bin
+*.tap
+*.scr
+demo.wav
+test_plugin_output.wav
+__pycache__/
+.venv/
+node_modules/
+
+# Knowledge data (generated)
+knowledge/chunks/
+knowledge/index/
+knowledge/raw/
+
+# OS
+.DS_Store

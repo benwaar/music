@@ -17,7 +17,8 @@ Everything is inspectable and hackable.
 
 | # | Project | What it builds | Depends on | Status |
 |---|---------|---------------|------------|--------|
-| 1 | [Signal Hunt](signal-hunt/) | Audio AI: sound classification → piano notes → chords and progressions | — | ✅ |
+| 1 | [Signal Hunt](signal-hunt/) | Audio AI: sound classification → piano notes → chords and progressions | — | done |
+| 2 | [Eno State ZX](eno-state-zx/) | 1-bit beeper synth: Z80 ASM → Rust → VST3/CLAP plugin | — | in development |
 
 
 ---
@@ -33,6 +34,20 @@ Turn raw audio into Mel spectrograms, then build up from sound classification th
 **Highlights:** 89.5% piano note accuracy · 96.2% chord-name accuracy · browser demo with ~12 ms end-to-end inference
 
 [Project folder](signal-hunt/) · [Project log](signal-hunt/LOG.md) · [Full documentation](signal-hunt/DOCS.md)
+
+---
+
+## Eno State ZX
+
+1-bit beeper synth: faithful Z80 Spectrum sound in a modern plugin.
+
+`Z80 assembly` · `Rust` · `VST3/CLAP` · `1-bit audio` · `beeper engines` · `integer T-state simulation`
+
+Learn how the ZX Spectrum beeper works by building engines from scratch in Z80 ASM, then port each to Rust as a playable VST3/CLAP synth plugin. Same algorithms, same tone tables, same sound.
+
+**Highlights:** 4 engines (tone, pulse width, noise, synthesis) · 14 Rust tests · headless plugin test via pedalboard · knowledge corpus MCP server
+
+[Project folder](eno-state-zx/) · [Explainers](eno-state-zx/explainers/) · [Z80 exercises](eno-state-zx/zx/)
 
 ---
 
