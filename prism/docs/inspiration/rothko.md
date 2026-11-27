@@ -1,0 +1,7 @@
+Mark Rothko is one of the most compelling artists to reverse-engineer into a profile because his entire visual philosophy was explicitly designed to evoke raw human emotion, spiritual resonance, and immersive, atmospheric weight.
+
+While Rothko resisted being labeled purely as a "synesthete" or a "color field painter," he frequently spoke about his paintings in musical terms—referring to harmonics, chords, resonance, breath, and spatial envelopment. He famously noted that he wanted viewers to experience his paintings with the same emotional intensity and temporal presence that people feel when listening to music.
+
+---
+
+My personal chromesthesia and Mark Rothko’s color-field philosophy share a ~60% cognitive overlap in how both treat sustained, low-frequency states as possessing tactile warmth and organic density—mapping deep emotional resonance to dark maroons, terracotta, and warm autumn earth tones rather than cool blues. The 40% friction occurs when activity sharpens: where Rothko remains within a warm, luminous spectrum using feathered cadmium orange and yellow glows, your brain demands a stark thermal and structural jump, translating sharp transients into razor-thin, high-contrast cuts of cold neon blue, electric cyan, and stark white.

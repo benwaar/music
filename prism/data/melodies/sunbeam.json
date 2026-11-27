@@ -1,0 +1,66 @@
+{
+  "title": "Sunbeam Over the Golden Fields",
+  "tempo": 80,
+  "analysis": {
+    "style": "acoustic folk",
+    "mood": "serene",
+    "energy": "placid",
+    "movement": "flowing",
+    "character": "rustic"
+  },
+  "notes": [
+    { "note": "G4", "beats": 2.0 },
+    { "note": "B4", "beats": 2.0 },
+    { "note": "D5", "beats": 2.0 },
+    { "note": "Rest", "beats": 2.0 },
+
+    { "note": "G4", "beats": 1.0 },
+    { "note": "A4", "beats": 1.0 },
+    { "note": "B4", "beats": 2.0 },
+    { "note": "D5", "beats": 1.0 },
+    { "note": "C5", "beats": 1.0 },
+    { "note": "B4", "beats": 2.0 },
+
+    { "note": "A4", "beats": 1.0 },
+    { "note": "G4", "beats": 1.0 },
+    { "note": "E4", "beats": 2.0 },
+    { "note": "G4", "beats": 2.0 },
+    { "note": "Rest", "beats": 2.0 },
+
+    { "note": "G4", "beats": 1.0 },
+    { "note": "B4", "beats": 1.0 },
+    { "note": "D5", "beats": 2.0 },
+    { "note": "E5", "beats": 1.0 },
+    { "note": "D5", "beats": 1.0 },
+    { "note": "B4", "beats": 2.0 },
+
+    { "note": "C5", "beats": 1.0 },
+    { "note": "B4", "beats": 1.0 },
+    { "note": "A4", "beats": 2.0 },
+    { "note": "G4", "beats": 2.0 },
+    { "note": "Rest", "beats": 2.0 },
+
+    { "note": "D5", "beats": 1.0 },
+    { "note": "E5", "beats": 1.0 },
+    { "note": "G5", "beats": 2.0 },
+    { "note": "E5", "beats": 1.0 },
+    { "note": "D5", "beats": 1.0 },
+    { "note": "B4", "beats": 2.0 },
+
+    { "note": "A4", "beats": 1.0 },
+    { "note": "B4", "beats": 1.0 },
+    { "note": "D5", "beats": 1.0 },
+    { "note": "B4", "beats": 1.0 },
+    { "note": "A4", "beats": 2.0 },
+    { "note": "G4", "beats": 2.0 },
+
+    { "note": "E4", "beats": 2.0 },
+    { "note": "G4", "beats": 2.0 },
+    { "note": "A4", "beats": 2.0 },
+    { "note": "B4", "beats": 2.0 },
+
+    { "note": "D5", "beats": 2.0 },
+    { "note": "B4", "beats": 2.0 },
+    { "note": "G4", "beats": 4.0 }
+  ]
+}

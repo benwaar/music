@@ -19,7 +19,7 @@ style: |
     color: rgba(255,255,255,0.7);
   }
   section.title-slide strong {
-    color: #f97316;
+    color: #22c55e;
   }
   section.title-slide a {
     color: rgba(255,255,255,0.5);
@@ -28,7 +28,7 @@ style: |
   }
   section:not(.title-slide) h2 {
     color: #1a1a2e;
-    border-bottom: 2px solid #f97316;
+    border-bottom: 2px solid #22c55e;
     padding-bottom: 0.2em;
   }
   em {
@@ -42,7 +42,7 @@ style: |
     color: #fff;
   }
   code {
-    background: #fef3e8;
+    background: #e8fef3;
     font-size: 0.85em;
   }
 ---

@@ -1,0 +1,49 @@
+# Audio / generated outputs
+*.flac
+*.mid
+*.midi
+*.mp3
+*.wav
+generated/
+
+# Data — reproducible via scripts, not committed
+_data/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Local tool builds
+_tools/
+
+# Models / checkpoints
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+runs/
+
+# Exception: committed LoRA adapter
+!models/lora_adapter/*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.egg-info/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+__pycache__/
+build/
+dist/
+
+# Rust
+synth/target/

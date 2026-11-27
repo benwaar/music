@@ -1,0 +1,13 @@
+[package]
+name = "chant-host"
+version = "0.1.0"
+edition = "2021"
+description = "Offline MIDI-to-WAV renderer using eno-state-zx beeper engines"
+
+[[bin]]
+name = "chant-host"
+path = "src/main.rs"
+
+[dependencies]
+eno-state-zx = "0.1.2"
+midly = "0.5"

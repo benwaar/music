@@ -1,0 +1,23 @@
+{
+  "title": "Melancholy Wistful",
+  "tempo": 80,
+  "analysis": {
+    "mood": "melancholy, wistful, nostalgic",
+    "style": "minor key, reflective",
+    "energy": "calm and restrained",
+    "movement": "descending with pauses",
+    "character": "thoughtful"
+  },
+  "notes": [
+    { "note": "A4", "beats": 1.0 },
+    { "note": "G4", "beats": 1.0 },
+    { "note": "E4", "beats": 1.0 },
+    { "note": "Rest", "beats": 0.5 },
+    { "note": "G4", "beats": 1.0 },
+    { "note": "F#4", "beats": 1.0 },
+    { "note": "E4", "beats": 1.5 },
+    { "note": "Rest", "beats": 0.5 },
+    { "note": "D4", "beats": 1.0 },
+    { "note": "C4", "beats": 1.5 }
+  ]
+}

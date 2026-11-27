@@ -1,0 +1,50 @@
+# Data — reproducible via scripts, not committed
+_data/
+
+# Local tool builds — reproducible via scripts/build_tools.sh
+_tools/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Models / checkpoints — restore via models/restore.sh
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+runs/
+
+# Audio / generated outputs
+*.wav
+*.mp3
+*.flac
+generated/
+
+# Allow committed examples
+!docs/examples/**/*.wav
+!docs/examples/**/*.mp3
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+docs/presentation.html
+drift/models/*.pt
