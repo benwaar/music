@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 80" width="140" height="80">
+  <!-- Prism logo — a triangular prism splitting a beam into spectrum lines -->
+
+  <!-- Input beam — single line entering the prism -->
+  <line x1="8" y1="40" x2="38" y2="40" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Prism triangle -->
+  <polygon points="42,16 42,64 78,40" fill="none" stroke="#a855f7" stroke-width="2" stroke-linejoin="round" opacity="0.7"/>
+
+  <!-- Output spectrum — fanning beams at different angles and opacities -->
+  <line x1="78" y1="40" x2="130" y2="18" stroke="#a855f7" stroke-width="2" stroke-linecap="round" opacity="0.95"/>
+  <line x1="78" y1="40" x2="132" y2="28" stroke="#a855f7" stroke-width="2" stroke-linecap="round" opacity="0.80"/>
+  <line x1="78" y1="40" x2="132" y2="38" stroke="#a855f7" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+  <line x1="78" y1="40" x2="132" y2="48" stroke="#a855f7" stroke-width="2" stroke-linecap="round" opacity="0.50"/>
+  <line x1="78" y1="40" x2="130" y2="58" stroke="#a855f7" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Small dots at beam endpoints — the latent dimensions -->
+  <circle cx="130" cy="18" r="2" fill="#a855f7" opacity="0.9"/>
+  <circle cx="132" cy="28" r="2" fill="#a855f7" opacity="0.7"/>
+  <circle cx="132" cy="38" r="2" fill="#a855f7" opacity="0.55"/>
+  <circle cx="132" cy="48" r="2" fill="#a855f7" opacity="0.4"/>
+  <circle cx="130" cy="58" r="2" fill="#a855f7" opacity="0.3"/>
+
+  <!-- Baseline -->
+  <line x1="8" y1="68" x2="132" y2="68" stroke="#a855f7" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+</svg>

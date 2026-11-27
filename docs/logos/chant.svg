@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 80" width="140" height="80">
+  <!-- Chant logo — text lines on the left morphing into note bars on the right -->
+
+  <!-- Left: text lines (the prompt) -->
+  <line x1="10" y1="24" x2="38" y2="24" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <line x1="10" y1="34" x2="32" y2="34" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+  <line x1="10" y1="44" x2="36" y2="44" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="10" y1="54" x2="28" y2="54" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Middle: arrow / transition -->
+  <polyline points="48,39 56,39 53,35" fill="none" stroke="#fbbf24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <line x1="53" y1="43" x2="56" y2="39" stroke="#fbbf24" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Right: note bars (the generated sequence) -->
+  <rect x="66"  y="44" width="5" height="18" rx="1" fill="#fbbf24" opacity="0.5"/>
+  <rect x="75"  y="30" width="5" height="32" rx="1" fill="#fbbf24" opacity="0.65"/>
+  <rect x="84"  y="36" width="5" height="26" rx="1" fill="#fbbf24" opacity="0.75"/>
+  <rect x="93"  y="22" width="5" height="40" rx="1" fill="#fbbf24" opacity="0.85"/>
+  <rect x="102" y="28" width="5" height="34" rx="1" fill="#fbbf24" opacity="0.9"/>
+  <rect x="111" y="38" width="5" height="24" rx="1" fill="#fbbf24" opacity="0.8"/>
+  <rect x="120" y="46" width="5" height="16" rx="1" fill="#fbbf24" opacity="0.6"/>
+
+  <!-- Baseline -->
+  <line x1="8" y1="68" x2="132" y2="68" stroke="#fbbf24" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+</svg>

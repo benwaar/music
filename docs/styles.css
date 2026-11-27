@@ -199,6 +199,30 @@ a:focus-visible {
   margin-bottom: 4px;
 }
 
+.audio-samples {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.audio-sample {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.audio-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.audio-sample audio {
+  width: 100%;
+  height: 36px;
+}
+
 .card-group--spaced {
   margin-top: 12px;
 }

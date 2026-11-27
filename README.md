@@ -1,8 +1,8 @@
 # Music & Sound AI Lab
 
-**[View the site](https://benwaar.github.io/music/)**
+**[View the site](https://benwaar.github.io/music/)** · **[Listen to samples](https://benwaar.github.io/music/#listen)**
 
-Hands-on machine learning music and sound AI projects.
+Learning AI and ML through creative projects — music, synths, and games — building transferable skills for finance and work.
 
 ## Development Ethos
 
