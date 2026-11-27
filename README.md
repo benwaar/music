@@ -68,7 +68,7 @@ Generating chip-tune music from noise using diffusion models.
 
 Train a denoising diffusion model on 54,000 chip-tune spectrogram segments across four chip architectures (SID, AY, SN76489, MOD). Start from pure noise and denoise step by step into playable audio. M5 replaces random noise with real-world recordings as seeds.
 
-**Highlights:** 54k segments · 4 chip types · M0–M7 complete · melody extraction pipeline
+**Highlights:** 54k segments · 4 chip types · M0–M7 complete · melody extraction pipeline · [sample: road noise → melody](https://benwaar.github.io/music/audio/road_legato.wav) · [sample: stream → melody](https://benwaar.github.io/music/audio/stream_melody.wav)
 
 [Project folder](drift/) · [Explainers](drift/docs/explainers/) · [Plan](drift/PLAN.md)
 
@@ -82,7 +82,7 @@ Text-to-chiptune via LoRA fine-tuning.
 
 Describe a chip-tune in plain English and a fine-tuned language model generates note sequences that beepers can play. 0.23% of parameters retrained, trains in 35 minutes on CPU. Custom 671-token vocabulary for note events.
 
-**Highlights:** 2,684 tracks · 308 tests · 671 custom tokens · 92.4% quality gate · Rust MIDI host
+**Highlights:** 2,684 tracks · 308 tests · 671 custom tokens · 92.4% quality gate · Rust MIDI host · [proto-banger: "slow ascending scale, square wave, 1 channel, A minor"](https://benwaar.github.io/music/audio/chant_proto_banger.wav)
 
 [Project folder](chant/) · [Explainers](chant/explainers/) · [Plan](chant/PLAN.md)
 
