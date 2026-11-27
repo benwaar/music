@@ -1,8 +1,8 @@
 # Music & Sound AI Lab
 
-**[View the site](https://benwaar.github.io/music/)** · **[Listen to samples](https://benwaar.github.io/music/#listen)**
+**[View the site](https://benwaar.github.io/music/)** · **[Ringtones](https://benwaar.github.io/music/ringtones.html)**
 
-Learning AI and ML through creative projects — music, synths, and games — building transferable skills for finance and work.
+Learning AI and ML through creative projects — music, synths, and games — building transferable skills for finance and work. Audio samples from drift and chant are playable on the site.
 
 ## Development Ethos
 
