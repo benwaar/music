@@ -484,6 +484,11 @@ a.tree-status:hover {
   .study-table {
     font-size: 0.75rem;
   }
+
+  .study-table th:nth-child(3),
+  .study-table td:nth-child(3) {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
